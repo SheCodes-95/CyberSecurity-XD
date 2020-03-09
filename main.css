@@ -1,0 +1,97 @@
+.topic-head{
+    background-color: #4f4949;
+    color: white;
+}
+.topic-head h2{
+   color:#e8d541 ; 
+
+}
+.left-one{
+    background-color: #bab3b3;
+}
+.left-one h1{
+    color: white;
+}
+.right-one{
+    background-color:  #4f4949;
+    color: white;
+}
+.right-one h1{
+    color: #e8d541;
+}
+
+.left-two{
+    background-color: #e8d541;
+    color: #4f4949;
+}
+
+.right-two{
+    background-color: white;
+}
+
+.left-three{
+    background-color: #c7c6bf;
+}
+.right-three{
+    background-color: #4f4949;
+}
+
+.assessment{
+    background-color: black;
+    color: white;
+}
+
+.roadmap {
+    background-color: black;
+    color: white;
+}
+.roadmap h2{
+    color: #e8d541;
+}
+
+.left-four{
+    background-color: #bab3b3 ;
+    color:#6e6d66;
+}
+.left-four h1{
+    color: white;
+}
+.right-four{
+    background-color: #4f4949;
+    color: white;
+}
+.right-four h1{
+    color: #e8d541;
+}
+.certs{
+    background-color: #e8d541;
+    color: #4f4949;
+}
+
+.soft-skills{
+    background-color: white;
+    color: #4f4949;
+}
+
+.implement{
+    background-color: #adab9a;
+    color: #4f4949;
+}
+.implement h1{
+    color: white;
+}
+.habits{
+    background-color:#4f4949;
+    color: white;
+}
+.habits h1{
+    color: #e8d541;
+}
+
+.money{
+    background-color: #061c08;
+    color: white;
+}
+.money h1{
+    color: #208029;
+}
