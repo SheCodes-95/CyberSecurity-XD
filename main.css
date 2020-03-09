@@ -4,9 +4,16 @@ body{
 
 .welcome-page{
     display: grid;
-    grid-template-columns: "topic-head topic-head topic-head topic-head"
-                            "left-one left-one right-one right-one"
-                            "left-two left-two right-two right-two";
+    grid-template-areas: "topic-head topic-head topic-head topic-head"
+                          "left-one left-one right-one right-one"
+                          "left-two left-two right-two right-two"
+                          "left-three left-three right-three right-three"
+                          "assessment assessment assessment assessment"
+                          "roadmap roadmap roadmap roadmap"
+                          "left-four left-four right-four right-four"
+                          "certs certs soft-skills soft-skills"
+                          "implement implement habits habits"
+                          "money money money money";
 
 }
 
@@ -26,7 +33,6 @@ body{
    padding: 20px;
    margin-bottom: 20px;
    grid-area: left-one;
-
  
 }
 .left-one h1{
@@ -49,12 +55,14 @@ body{
     color: #4f4949;
     padding: 20px;
     margin-bottom: 20px;
+    grid-area: left-two;
 }
 
 .right-two{
     background-color: white;
     padding: 20px;
     margin-bottom: 20px;
+    grid-area: right-two;
 }
 
 .left-three{
@@ -62,6 +70,7 @@ body{
     color: #4f4949;
     padding: 20px;
     margin-bottom: 20px;
+    grid-area: left-three;
 }
 .left-three h1{
     color: white;
@@ -71,6 +80,7 @@ body{
     color: white;
     padding: 20px;
     margin-bottom: 20px;
+    grid-area: right-three;
 }
 .right-three h1{
     color: #e8d541;
@@ -81,6 +91,7 @@ body{
     color: white;
     padding: 20px;
     margin-bottom: 20px;
+    grid-area: assessment;
 }
 
 .roadmap {
@@ -88,6 +99,7 @@ body{
     color: white;
     padding: 20px;
     margin-bottom: 20px;
+    grid-area: roadmap;
 }
 .roadmap h2{
     color: #e8d541;
@@ -98,6 +110,7 @@ body{
     color:#6e6d66;
     padding: 20px;
     margin-bottom: 20px;
+    grid-area: left-four;
 }
 .left-four h1{
     color: white;
@@ -107,6 +120,7 @@ body{
     color: white;
     padding: 20px;
     margin-bottom: 20px;
+    grid-area: right-four;
 }
 .right-four h1{
     color: #e8d541;
@@ -116,6 +130,7 @@ body{
     color: #4f4949;
     padding: 20px;
     margin-bottom: 20px;
+    grid-area: certs;
 }
 
 .soft-skills{
@@ -123,6 +138,7 @@ body{
     color: #4f4949;
     padding: 20px;
     margin-bottom: 20px;
+    grid-area: soft-skills;
 }
 
 .implement{
@@ -130,6 +146,7 @@ body{
     color: #4f4949;
     padding: 20px;
     margin-bottom: 20px;
+    grid-area: implement;
 }
 .implement h1{
     color: white;
@@ -139,6 +156,7 @@ body{
     color: white;
     padding: 20px;
     margin-bottom: 20px;
+    grid-area: habits;
 }
 .habits h1{
     color: #e8d541;
@@ -149,6 +167,7 @@ body{
     color: white;
     padding: 20px;
     margin-bottom: 20px;
+    grid-area: money;
 }
 .money h1{
     color: #208029;
