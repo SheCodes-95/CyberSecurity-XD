@@ -14,7 +14,8 @@ body{
                           "certs certs soft-skills soft-skills"
                           "implement implement habits habits"
                           "money money money money";
-
+   max-width: 1300px;
+   margin: 40px auto 40px auto;
 }
 
 
@@ -23,11 +24,17 @@ body{
     color: white;
     grid-area: topic-head;
 
-}
-.topic-head h2{
-   color:#e8d541 ; 
 
 }
+.topic-head h2{
+   color:#e8d541 ;
+   text-align: center; 
+
+}
+.topic-head h1{
+    text-align: center;
+}
+
 .left-one{
     background-color: #bab3b3;
    padding: 20px;
@@ -37,6 +44,7 @@ body{
 }
 .left-one h1{
     color: white;
+    text-align: center;
 }
 .right-one{
     background-color:  #4f4949;
@@ -48,6 +56,7 @@ body{
 }
 .right-one h1{
     color: #e8d541;
+    text-align: center;
 }
 
 .left-two{
@@ -93,6 +102,9 @@ body{
     margin-bottom: 20px;
     grid-area: assessment;
 }
+.assessment h1{
+    text-align: center;
+}
 
 .roadmap {
     background-color: black;
@@ -100,9 +112,14 @@ body{
     padding: 20px;
     margin-bottom: 20px;
     grid-area: roadmap;
+    text-align: center;
 }
 .roadmap h2{
     color: #e8d541;
+    text-align: center;
+}
+.roadmap h1{
+    text-align: center;
 }
 
 .left-four{
