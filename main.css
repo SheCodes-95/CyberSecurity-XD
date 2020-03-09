@@ -3,14 +3,18 @@ body{
 }
 
 .welcome-page{
-max-width: 1300px;
-margin: 40px auto 0 auto;
+    display: grid;
+    grid-template-columns: "topic-head topic-head topic-head topic-head"
+                            "left-one left-one right-one right-one"
+                            "left-two left-two right-two right-two";
+
 }
 
 
 .topic-head{
     background-color: #4f4949;
     color: white;
+    grid-area: topic-head;
 
 }
 .topic-head h2{
@@ -21,6 +25,8 @@ margin: 40px auto 0 auto;
     background-color: #bab3b3;
    padding: 20px;
    margin-bottom: 20px;
+   grid-area: left-one;
+
  
 }
 .left-one h1{
@@ -31,6 +37,7 @@ margin: 40px auto 0 auto;
     color: white;
     padding: 20px;
     margin-bottom: 20px;
+    grid-area: right-one;
     
 }
 .right-one h1{
